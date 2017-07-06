@@ -1,0 +1,60 @@
+body {
+	max-width: 100%;
+	color: #444;
+}
+
+.menuhaut {
+	display: flex;
+	position: absolute;
+	top: 0%;
+	left: 85%;
+	right: 0%
+	bottom: 95%;
+	justify-content: space-between;
+}
+
+.menuhaut p {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+
+
+.menugauche {
+	display: flex;
+	position: absolute;
+	top: 95%;
+	left: 0%;
+	right: 80%;
+	bottom: 0%;
+	justify-content: space-around;
+
+}
+
+*{
+	max-width: 100%;
+}
+
+.menudroit {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 95%;
+	left: 79%;
+	bottom: 0%;
+	right: 12%;
+
+}
+
+.menudroit p {
+	margin-left: 15px;
+}
+
+form{
+	font-size: 3em;
+}
+
+.con {
+	background-color: blue;
+	border: 1px;
+}
